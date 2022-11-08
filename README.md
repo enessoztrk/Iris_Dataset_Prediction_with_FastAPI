@@ -15,7 +15,9 @@ Some features of the dataset:
 Several popular classifiers have been created using the scikit-learn library, it has been observed that petal measurements are more useful than sepal ones in classifying samples. It has been made ready to be used in the live environment with the Fast API.🥳
 
 Project is live now and deployed on fast api. visit at https://www.kaggle.com/code/enesztrk/iris-dataset-prediction-with-fast-api
+
 Perform dataset exploration using various types of data visualization.
+
 Build various ML models that can predict iris species based on given dataset.
 ​
 
