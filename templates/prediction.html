@@ -1,0 +1,20 @@
+{% extends "base.html" %} {% block content %}
+        <div class="base">
+          <h1>Iris Prediction Result</h1>
+          <table class="table table-striped table-hover">
+            <thead>
+              <tr>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td style="color: #fff">{{predicted}}</td>
+                  <td style="color: #fff">{{probabilty}}</td>
+                  <td style="color: #fff">{{probalities}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        {% endblock %}
